@@ -1,0 +1,28 @@
+
+button {
+    background-color: #3a3de0;
+    border-radius: 3pt;
+}
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif
+    ;  font-size: small;
+}
+body {
+    text-align: center;
+}
+form {
+    display: inline-block;
+}
+ 
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    color: black;   
+}
+
+input {
+    height: 20px;
+    
+}
