@@ -1,8 +1,6 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
-html {
-    scroll-behavior: smooth;
-}
+
 :root {
 
     /* Header height */
@@ -174,6 +172,7 @@ html {
     font-weight: var(--biggest-font-font);
     text-align: left;
     padding-left: 20px;
+    text-align: center;
 }
 
 ul {
@@ -194,73 +193,88 @@ h1 {
     font-size: 50px;
 }
 
-.converter {
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-top: 10px;
-}
-
-#cancel {
-    border: none;
-    background-color: white;
-    cursor: pointer;
-    transition: ease 0.3s;
-    
-}
-#cancel:hover {
-    background-color: var(--white);
-    transition: 0.3s;
-}
-
-
 td, th {
     text-align: center;
+    border-radius: 10;
     vertical-align: middle;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-}
+    margin-top: 10px;
 
-.heading {
-    color: white;
 }
 
 td img {
     vertical-align: middle;
-}
-
-.container {
     
-    border-radius: 10px;   
 }
 
-.empty {
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    padding: 20px;
+.coin {
     margin-top: 20px;
-    
-}
-
-.empty img {
-    height: 300px;
-    width: 300px;
 }
 
 table {
     border-collapse: collapse;
     border: 1px solid black;
-    margin-left: 20px;
-    border-radius: 40px;
-    
+    border-radius: 5px;
+}
+
+th {
+    color: white;
+}
+
+
+.container {
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 31%;
+    margin-top: 20px;
+    padding: 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
+
+
+
+h2 {
+    padding: 20px;
+}
+
+.footer_section {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--blue-grotto);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-bottom: 9px;
+    color: white;
+    border-top: 1px solid black;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    transition: ease 0.5s;
+}
+.links:hover {
+    transition: ease 0.5s;
+}
+
+body {
+    overflow: scroll;
+}
+
 .btn {
     padding-left: 30px;
     padding-right: 30px;
@@ -279,38 +293,4 @@ table {
 .btn:hover {
     transition: ease 0.5s;
     background-color: #057DCD;
-}
-
-.footer_section {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: white;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    padding-bottom: 9px;
-    color: black;
-    border-top: 1px solid black;
-}
-
-.footer_container {
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-
-.links {
-    display: flex;
-    justify-content: space-evenly;
-    color: black;
-    transition: 0.5s;
-}
-.link:hover {
-    transition: 0.5s;
-    color: var(--royal-blue);
-}
-
-body {
-    overflow: scroll;
 }
